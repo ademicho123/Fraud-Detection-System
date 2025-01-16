@@ -1,16 +1,3 @@
-# Virtual Environment
-venv/
-.venv/
-myenv/
-
-#Large files
-movies_datasets/ratings.csv
-movies_datasets/tags.csv
-
-# Python Cache
-__pycache__/
-*.pyc
-
-# IDE Specific Files
-.vscode/
-*.code-workspace
+# Ignore all datasets
+data/
+myenv
