@@ -4,6 +4,10 @@ This project focuses on building a robust system to detect fraudulent credit car
 
 ---
 
+## Data
+
+The data for the project can be found here - https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+
 ## Key Features
 1. **Data Preprocessing**:
   - Cleanses and normalizes transactional data for consistent input to models.
