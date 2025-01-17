@@ -1,13 +1,16 @@
 from fastapi import FastAPI, HTTPException
 import torch
 import numpy as np
-from src.models.model import EnhancedFraudDetector
+from src.model import EnhancedFraudDetector
+import os
 
 app = FastAPI()
 
 # Load the trained model
 model = EnhancedFraudDetector(input_dim=30)  # Adjust input_dim based on your features
-model.load_state_dict(torch.load('models/fraud_detector_model.pth'))
+models_dir = r'C:\Users\ELITEBOOK\OneDrive\Desktop\Projects\Fraud-Detection-System\models'
+file_path = os.path.join(models_dir, 'fraud_detector_model.pth')
+model.load_state_dict(torch.load(file_path))
 model.eval()
 
 @app.post("/predict")
