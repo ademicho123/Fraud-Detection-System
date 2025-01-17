@@ -28,7 +28,6 @@ The data for the project can be found here - https://www.kaggle.com/datasets/nel
 ---
 
 ## Project Structure
-```plaintext
 fraud_detection_project/
 ├── data/
 │   ├── raw/                 # Raw dataset
