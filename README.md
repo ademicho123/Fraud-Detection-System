@@ -24,6 +24,7 @@ This project focuses on building a robust system to detect fraudulent credit car
 ---
 
 ## Project Structure
+```plaintext
 fraud_detection_project/
 ├── data/
 │   ├── raw/                 # Raw dataset
